@@ -68,3 +68,10 @@ div {
     list-style: square;
   }
 }
+
+.has-events {
+  background-color: rgba(255, 122, 246, 0.59);
+  >div {
+    color: rgb(18, 0, 255);
+  }
+}

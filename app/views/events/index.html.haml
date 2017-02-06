@@ -12,6 +12,7 @@
         %th Description
         %th Start date
         %th End date
+        %th Website
         %th
         %th
         %th
@@ -21,15 +22,12 @@
         %tr
           %td= event.name
           %td= event.description
-          %td= event.start_date
-          %td= event.end_date
+          %td= event.start_date.strftime('%m/%d')
+          %td= event.end_date.strftime('%m/%d')
+          %td  
+            %a{:href => event.website} website
           %td= link_to 'Show', event
           %td= link_to 'Edit', edit_event_path(event)
           %td= link_to 'Destroy', event, data: { confirm: 'Are you sure?' }, method: :delete
-          
 
-= month_calendar events: @events do |date, events|
-  = date
-
-  - events.each do |event|
-    %div= event.name
+= render 'events/event_calendar', :locals => { :events => @events }
