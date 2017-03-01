@@ -1,0 +1,53 @@
+--
+-- PostgreSQL database dump
+--
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+SET search_path = public, pg_catalog;
+
+--
+-- Data for Name: events; Type: TABLE DATA; Schema: public; Owner: ubuntu
+--
+
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (1, 'Anime Milwaukee', '', '2017-02-17 00:00:00', '2017-02-19 22:00:00', '2017-01-27 04:30:46.183953', '2017-02-03 04:17:28.772909', 'http://animemilwaukee.org/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (2, 'C2E2', '', '2017-04-21 00:00:00', '2017-04-23 00:00:00', '2017-02-03 04:48:15.93612', '2017-02-03 04:49:06.422189', 'www.c2e2.com/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (3, 'ACEN', '', '2017-05-19 00:00:00', '2017-05-21 00:00:00', '2017-02-03 04:50:08.229771', '2017-02-03 04:50:08.229771', 'https://www.acen.org/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (4, 'Geek Kon', '', '2017-08-25 00:00:00', '2017-08-27 00:00:00', '2017-02-03 04:50:47.675537', '2017-02-03 04:50:47.675537', 'www.geekkon.net/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (5, 'MidoriCon', '', '2017-09-09 00:00:00', '2017-09-11 00:00:00', '2017-02-03 04:55:29.510947', '2017-02-03 04:55:39.106599', 'http://midoricon.com');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (6, 'Detour', '', '2017-04-07 00:00:00', '2017-04-09 00:00:00', '2017-02-03 04:56:47.517691', '2017-02-03 04:56:47.517691', 'http://www.animedetour.com/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (7, 'Wizard World Minneapolis', '', '2017-05-05 00:00:00', '2017-05-07 00:00:00', '2017-02-03 04:57:47.117137', '2017-02-03 04:57:47.117137', 'http://wizardworld.com/comiccon/minneapolis');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (8, 'AniMinni', '', '2017-05-26 00:00:00', '2017-05-28 00:00:00', '2017-02-03 04:58:42.102428', '2017-02-03 04:58:42.102428', 'http://animinneapolis.com/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (9, 'CONvergence', '', '2017-07-06 00:00:00', '2017-07-09 00:00:00', '2017-02-03 04:59:04.183434', '2017-02-03 04:59:04.183434', 'http://www.convergence-con.org/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (10, 'MetaCon', '', '2017-09-10 00:00:00', '2017-09-03 00:00:00', '2017-02-03 04:59:21.334835', '2017-02-03 04:59:21.334835', 'http://www.metaconvention.com/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (11, 'Anime Fusion', '', '2017-10-20 00:00:00', '2017-10-22 00:00:00', '2017-02-03 04:59:54.75626', '2017-02-03 04:59:54.75626', 'https://www.animefusion.net/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (12, 'Daisho Con', '', '2017-11-17 00:00:00', '2017-11-19 00:00:00', '2017-02-03 05:00:20.290044', '2017-02-03 05:00:20.290044', 'http://www.daishocon.org/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (13, 'Dragon Con', '', '2017-09-10 00:00:00', '2017-09-04 00:00:00', '2017-02-03 05:00:43.648476', '2017-02-03 05:00:43.648476', 'http://www.dragoncon.org/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (14, 'Anime Iowa', '', '2017-07-28 00:00:00', '2017-07-30 00:00:00', '2017-02-03 05:01:06.171523', '2017-02-03 05:01:06.171523', 'http://animeiowa.com/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (15, 'Kitsunekon', '', '2017-07-14 00:00:00', '2017-07-16 00:00:00', '2017-02-03 05:01:30.861929', '2017-02-03 05:01:30.861929', 'http://www.kitsunekon.com');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (16, 'Crypticon', '', '2017-11-03 00:00:00', '2017-11-05 00:00:00', '2017-02-03 05:01:53.911482', '2017-02-03 05:01:53.911482', 'http://crypticonminneapolis.com/index.html');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (17, 'Tol-Con', '', '2017-11-03 00:00:00', '2017-11-05 00:00:00', '2017-02-03 05:02:12.576337', '2017-02-03 05:02:12.576337', 'http://tol-con.com/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (18, 'Anime North', '', '2017-05-26 00:00:00', '2017-05-28 00:00:00', '2017-02-03 05:02:52.49213', '2017-02-03 05:02:52.49213', 'http://www.animenorth.com/live/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (19, 'ai-kon', '', '2017-02-25 00:00:00', '2017-02-27 00:00:00', '2017-02-03 05:03:14.929901', '2017-02-03 05:03:14.929901', 'http://www.ai-kon.org/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (20, 'Anime-zing', '', '2017-07-14 00:00:00', '2017-07-16 00:00:00', '2017-02-03 05:03:38.041573', '2017-02-03 05:03:38.041573', 'http://qcanimezing.com/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (21, 'No Brand Con', '', '2017-04-21 00:00:00', '2017-04-23 00:00:00', '2017-02-03 05:04:01.306884', '2017-02-03 05:04:01.306884', 'http://www.nobrandcon.org/p/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (22, 'EDC', '', '2017-06-16 00:00:00', '2017-06-18 00:00:00', '2017-02-03 05:04:34.536861', '2017-02-03 05:04:34.536861', 'http://lasvegas.electricdaisycarnival.com/');
+INSERT INTO events (id, name, description, start_date, end_date, created_at, updated_at, website) VALUES (23, 'FotoCon by Techland', '', '2017-08-11 00:00:00', '2017-08-13 00:00:00', '2017-02-04 07:13:24.988125', '2017-02-04 07:13:24.988125', 'http://foto-con.pl/');
+
+
+--
+-- Name: events_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ubuntu
+--
+
+SELECT pg_catalog.setval('events_id_seq', 23, true);
+
+
+--
+-- PostgreSQL database dump complete
+--
+
